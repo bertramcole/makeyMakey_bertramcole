@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+body {
+    background: url(http://www.zastavki.com/pictures/originals/2014/Backgrounds_Wallpapers_with_gradient_background_082013_.jpg);
+ font-family: 'Roboto Condensed', sans-serif;
+ text-transform: uppercase;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.wrap img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+.wrap h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-weight: normal;
+  color: #464646;
+  position: relative;
+  font-size: 4em;
+}
+
+.wrap h4 {
+
+  font-weight: normal;
+  color: #464646;
+  position: relative;
+ 
+    
+}
+
+@media only screen and (max-width: 768px) {
+  #regTitle {
+    font-size: 2.5em;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .image img {
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+}
