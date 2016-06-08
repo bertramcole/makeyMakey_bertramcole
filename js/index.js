@@ -5,7 +5,7 @@ $(document).ready(function() {
         }
     }
 
-    $.preloadImages("https://pixabay.com/get/e831b90d2afc1c22d2524518a34e449fe272ebdd04b0154790f4c378a2edb2/bronze-148228_1280.png", "https://pixabay.com/get/e831b90d2bf41c22d2524518a34e449fe272ebdd04b0154790f4c378a3ebb7/franc-148230_1280.png");
+    $.preloadImages("https://www.usmint.gov/images/mint_programs/circulatingCoins/Penny-obverse.png", "https://www.usmint.gov/images/mint_programs/circulatingCoins/Penny-reverse.png");
     $('h1').addClass('animated fadeInDown');
     $('img').addClass('animated fadeInDown');
     
@@ -24,12 +24,12 @@ $(document).ready(function() {
                 if (side == "heads") {
                     $("#regTitle").html("You Got " + side).addClass('animated pulse');
                     $('h1').addClass('animated pulse');
-                    $(".image").html('<img class="heads" src="https://pixabay.com/get/e831b90d2afc1c22d2524518a34e449fe272ebdd04b0154790f4c378a2edb2/bronze-148228_1280.png"/>');
+                    $(".image").html('<img class="heads" src="https://www.usmint.gov/images/mint_programs/circulatingCoins/Penny-obverse.png"/>');
                     $('.heads').addClass('animated flip');
                 } else {
                     $("#regTitle").html("You Got " + side);
                     $('h1').addClass('animated pulse');
-                    $(".image").html('<img class="tails" src="https://pixabay.com/get/e831b90d2bf41c22d2524518a34e449fe272ebdd04b0154790f4c378a3ebb7/franc-148230_1280.png"/>');
+                    $(".image").html('<img class="tails" src="https://www.usmint.gov/images/mint_programs/circulatingCoins/Penny-reverse.png"/>');
                     $('.tails').addClass('animated flip');
                 }
             }
